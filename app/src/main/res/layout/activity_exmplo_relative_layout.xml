@@ -1,0 +1,55 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sou_um_texto_no_canto_superior_direito"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sou_um_texto_no_fim_da_tela"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sou_um_texto_no_meio"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtNoMeio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:layout_toLeftOf="@id/txtNoMeio"
+        android:layout_above="@id/txtNoMeio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b"
+        android:layout_toRightOf="@id/txtNoMeio"
+        android:layout_above="@id/txtNoMeio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c"
+        android:layout_toLeftOf="@id/txtNoMeio"
+        android:layout_below="@id/txtNoMeio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d"
+        android:layout_toRightOf="@id/txtNoMeio"
+        android:layout_below="@id/txtNoMeio"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escolher"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exmplo_linearlayout"
+            android:layout_weight="1"
+            android:onClick="ExmploLinearLayout"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exemplo_relativelayout"
+            android:layout_weight="1"
+            android:onClick="emxemploRelativeLayout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exemplo_absolutelayout"
+            android:layout_weight="1"
+            android:onClick="ExemploAbsoluteLayout"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exemplo_framelayout"
+            android:layout_weight="1"
+            android:onClick="ExmploFrameLayoutActivity"/>
+
+    </LinearLayout>
+
+</LinearLayout>
